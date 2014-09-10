@@ -74,7 +74,10 @@ syntax on
 " NERDTree install
 " cd ~/.vim/bundle
 " git clone https://github.com/scrooloose/nerdtree.git
-silent! nmap <C-p> :NERDTreeToggle<CR>
+" NERDTreeTabs 
+" cd ~/.vim/bundle
+" git clone https://github.com/jistr/vim-nerdtree-tabs.git
+silent! nmap <C-p> :NERDTreeTabsToggle<CR>
 
 " Python-mode
 " python-mode install 
