@@ -69,6 +69,9 @@ call pathogen#infect()
 call pathogen#helptags()
 filetype plugin indent on
 syntax on
+" vim-fugitive
+" cd ~/.vim/bundle
+" git clone git://github.com/tpope/vim-fugitive.git
 
 " NERDTree
 " NERDTree install
