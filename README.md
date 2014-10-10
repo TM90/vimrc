@@ -1,12 +1,12 @@
-## Cheat Sheet
+# Cheat Sheet
 
 - -> means pressed togehter
 + -> means pressed in a row
 
-### in every mode:
+## in every mode:
 ctrl-z save
 
-### command mode:
+## command mode:
 ctrl-p -> NerdtreeTabs toogle
 ,+m -> next tab
 ,+n -> previos tab
@@ -17,10 +17,10 @@ p -> paste
 dd -> delete line
 :9,12d -> delete from line 9 to 12
 
-### insert mode:
+## insert mode:
 ctrl-p -> auto completion
 
-### visual mode:
+## visual mode:
 > -> increase indent of selected block
 < -> decrease indent of selected block
 ,+s sort alphabetically
