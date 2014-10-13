@@ -16,6 +16,7 @@
 - :9,12y -> copy from line 9 to 12
 - dd -> delete line
 - :9,12d -> delete from line 9 to 12
+- :%s/foo/bar -> search foo in all lines and replace it with bar
 
 ## insert mode:
 - ctrl-p -> auto completion
