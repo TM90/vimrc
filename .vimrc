@@ -96,4 +96,4 @@ set nofoldenable
 " git clone --recursive https://github.com/davidhalter/jedi-vim.git
 autocmd FileType python setlocal completeopt-=preview "do not pop up the doc window
 au BufNewFile,BufRead *.tm set filetype=tcl
-
+nnoremap ; :
