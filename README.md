@@ -18,7 +18,7 @@
 - :9,12d -> delete from line 9 to 12
 - :%s/foo/bar -> search foo in all lines and replace it with bar
 - G -> jump to the file end
-
+- x -> delete character
 
 ## insert mode:
 - ctrl-p -> auto completion
