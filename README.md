@@ -21,7 +21,7 @@
 - x -> delete character
 
 ## insert mode:
-- ctrl-p -> auto completion
+- ctrl-n -> auto completion
 
 ## visual mode:
 - \> -> increase indent of selected block
