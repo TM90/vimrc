@@ -19,6 +19,7 @@
 - :%s/foo/bar -> search foo in all lines and replace it with bar
 - G -> jump to the file end
 - x -> delete character
+
 When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect word:
 - z+= -> Gives suggestions for the correct word
 - ]+s -> go to the next incorrect word
