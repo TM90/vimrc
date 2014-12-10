@@ -22,6 +22,11 @@ This cheat sheet applies to the .vimrc in this repository
 - G -> jump to the file end
 - x -> delete character
 
+When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect word:
+- z+= -> Gives suggestions for the correct word
+- ]+s -> go to the next incorrect word
+- [+s -> go to the previous incorrect word
+- z+g -> add the word to the dictonary
 ## insert mode:
 - ctrl-n -> auto completion
 
