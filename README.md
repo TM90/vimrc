@@ -1,5 +1,7 @@
 # Cheat Sheet
 
+This cheat sheet applies to the .vimrc in this repository
+
 - \- -> means pressed togehter
 - \+ -> means pressed in a row
 
