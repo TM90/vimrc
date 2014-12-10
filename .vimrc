@@ -98,3 +98,9 @@ autocmd FileType python setlocal completeopt-=preview "do not pop up the doc win
 au BufNewFile,BufRead *.tm set filetype=tcl
 nnoremap ; :
 colorscheme ron
+" spell checking
+au BufNewFile,BufRead,BufEnter *.txt setlocal spell spelllang=en_us
+au BufNewFile,BufRead,BufEnter *.md setlocal spell spelllang=en_us
+au BufNewFile,BufRead,BufEnter *.wiki setlocal spell spelllang=en_us
+au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
+
