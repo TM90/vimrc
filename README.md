@@ -27,6 +27,7 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 - ]+s -> go to the next incorrect word
 - [+s -> go to the previous incorrect word
 - z+g -> add the word to the dictonary
+
 ## insert mode:
 - ctrl-n -> auto completion
 
