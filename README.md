@@ -21,6 +21,9 @@ This cheat sheet applies to the .vimrc in this repository
 - :%s/foo/bar -> search foo in all lines and replace it with bar
 - G -> jump to the file end
 - x -> delete character
+- $ -> jump to end of line
+- A -> jump to end of line and switch to insert mode
+
 
 When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect word:
 - z+= -> Gives suggestions for the correct word
