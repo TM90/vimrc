@@ -103,4 +103,7 @@ au BufNewFile,BufRead,BufEnter *.txt setlocal spell spelllang=en_us
 au BufNewFile,BufRead,BufEnter *.md setlocal spell spelllang=en_us
 au BufNewFile,BufRead,BufEnter *.wiki setlocal spell spelllang=en_us
 au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
-
+" supertab
+" supertab install
+" cd ~/.vim/bundle
+" git clone git@github.com:ervandew/supertab.git 

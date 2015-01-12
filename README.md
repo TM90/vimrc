@@ -29,7 +29,7 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 - z+g -> add the word to the dictonary
 
 ## insert mode:
-- ctrl-n -> auto completion
+- tab -> auto completion
 
 ## visual mode:
 - \> -> increase indent of selected block
