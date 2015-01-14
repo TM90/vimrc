@@ -23,7 +23,7 @@ This cheat sheet applies to the .vimrc in this repository
 - x -> delete character
 - $ -> jump to end of line
 - A -> jump to end of line and switch to insert mode
-
+- :%s/\s\\+$//g
 
 When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect word:
 - z+= -> Gives suggestions for the correct word
@@ -38,3 +38,6 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 - \> -> increase indent of selected block
 - < -> decrease indent of selected block
 - ,+s sort alphabetically
+
+
+
