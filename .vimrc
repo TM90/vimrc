@@ -107,3 +107,9 @@ au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
 " supertab install
 " cd ~/.vim/bundle
 " git clone git@github.com:ervandew/supertab.git 
+"
+" vim-haskellConceal
+" vim-haskellConceal
+" cd ~/.vim/bundle
+" git clone git@github.com:Twinside/vim-haskellConceal
+"
