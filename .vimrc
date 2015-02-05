@@ -113,3 +113,7 @@ au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
 " cd ~/.vim/bundle
 " git clone git@github.com:Twinside/vim-haskellConceal
 "
+" vim-multiple-cursors
+" Sublime like mulitple selection
+"cd ~/.vim/bundle
+"git clone git@github.com:terryma/vim-multiple-cursors
