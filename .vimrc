@@ -103,10 +103,13 @@ au BufNewFile,BufRead,BufEnter *.txt setlocal spell spelllang=en_us
 au BufNewFile,BufRead,BufEnter *.md setlocal spell spelllang=en_us
 au BufNewFile,BufRead,BufEnter *.wiki setlocal spell spelllang=en_us
 au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
-" supertab
+" You Complete Me
 " supertab install
 " cd ~/.vim/bundle
-" git clone git@github.com:ervandew/supertab.git 
+" git clone git@github.com:Valloric/YouCompleteMe.git
+" cd YouCompleteMe
+" git submodule update --init --recursive
+" ./install.sh
 "
 " vim-haskellConceal
 " vim-haskellConceal
