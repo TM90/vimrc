@@ -33,6 +33,7 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 
 ## insert mode:
 - tab -> auto completion
+- ctrl-n -> multiple selection
 
 ## visual mode:
 - \> -> increase indent of selected block
