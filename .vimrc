@@ -120,3 +120,7 @@ au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
 " Sublime like mulitple selection
 "cd ~/.vim/bundle
 "git clone git@github.com:terryma/vim-multiple-cursors
+"
+"vim-airline
+"cd ~/.vim/bundle
+"git clone git@github.com:bling/vim-airline.git
