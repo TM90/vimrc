@@ -2,6 +2,7 @@
 "Description: My .vimrc
 "
 "Standard stuff
+set t_Co=256
 autocmd! bufwritepost .vimrc source % "apply changes on buffer write
 set clipboard=unnamed
 set nocompatible
@@ -124,3 +125,4 @@ au BufNewFile,BufRead,BufEnter README setlocal spell spelllang=en_us
 "vim-airline
 "cd ~/.vim/bundle
 "git clone git@github.com:bling/vim-airline.git
+let g:airline_powerline_fonts = 1
