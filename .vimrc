@@ -81,8 +81,7 @@ syntax on
 " NERDTreeTabs 
 " cd ~/.vim/bundle
 " git clone https://github.com/jistr/vim-nerdtree-tabs.git
-silent! nmap <C-p> :NERDTreeTabsToggle<CR>
-
+silent! nnoremap <C-p> :NERDTreeTabsToggle<CR>
 " Python-mode
 " python-mode install 
 " cd ~/.vim/bundle
