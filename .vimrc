@@ -81,7 +81,8 @@ syntax on
 " NERDTreeTabs 
 " cd ~/.vim/bundle
 " git clone https://github.com/jistr/vim-nerdtree-tabs.git
-silent! nnoremap <C-p> :NERDTreeTabsToggle<CR>
+silent! nmap <C-p> :NERDTreeTabsToggle<CR>
+
 " Python-mode
 " python-mode install 
 " cd ~/.vim/bundle
@@ -96,6 +97,7 @@ set nofoldenable
 " git clone --recursive https://github.com/davidhalter/jedi-vim.git
 autocmd FileType python setlocal completeopt-=preview "do not pop up the doc window
 au BufNewFile,BufRead *.tm set filetype=tcl
+au BufNewFile,BufRead *.sv set filetype=verilog
 nnoremap ; :
 colorscheme ron
 " spell checking
