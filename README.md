@@ -40,5 +40,7 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 - < -> decrease indent of selected block
 - ,+s sort alphabetically
 
+## Rainbow Parentheses
+:RainbowParenthesesToogle
 
 
