@@ -9,7 +9,6 @@ This cheat sheet applies to the .vimrc in this repository
 - ctrl-z save
 
 ## command mode:
-- ctrl-p -> NerdtreeTabs toogle
 - ,+m -> next tab
 - ,+n -> previos tab
 - u -> undo
@@ -36,11 +35,9 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 - ctrl-n -> multiple selection
 
 ## visual mode:
-- \> -> increase indent of selected block
+- > -> increase indent of selected block
 - < -> decrease indent of selected block
 - ,+s sort alphabetically
 
-## Rainbow Parentheses
-:RainbowParenthesesToogle
 
 
