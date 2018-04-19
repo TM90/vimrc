@@ -17,6 +17,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-vinegar'
+Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
 call vundle#end()
 
