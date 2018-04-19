@@ -21,6 +21,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
 call vundle#end()
 
+noremap <c-j> <c-w>j
+noremap <c-k> <c-w>k
+noremap <c-l> <c-w>l
+noremap <c-h> <c-w>h
 " netrw setup
 
 let g:netrw_banner = 0
@@ -69,10 +73,7 @@ vnoremap <C-Z> <C-C>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
 
 "Tab and Split navigation
-map <c-j> <c-w>j
-map <c-k> <c-w>k
-map <c-l> <c-w>l
-map <c-h> <c-w>h
+
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
@@ -83,7 +84,7 @@ set softtabstop=4
 set expandtab
 set shiftround
 map Y y$
-nnoremap <C-L> :nohl<CR><C-L>
+"nnoremap <C-L> :nohl<CR><C-L>
 
 "sort aphabeticlly
 vnoremap <Leader>s :sort<CR>
