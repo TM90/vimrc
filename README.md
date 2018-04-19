@@ -23,6 +23,11 @@ This cheat sheet applies to the .vimrc in this repository
 - $ -> jump to end of line
 - A -> jump to end of line and switch to insert mode
 - :%s/\s\\+$//g
+### moving in splits
+- ctrl-h move to left split
+- ctrl-l move to right split
+- ctrl-j move split up
+- ctrl-k move split down
 
 When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect word:
 - z+= -> Gives suggestions for the correct word
