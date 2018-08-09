@@ -19,6 +19,7 @@ Plugin 'ervandew/supertab'
 Plugin 'tpope/vim-vinegar'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'davidhalter/jedi-vim'
 call vundle#end()
 
 noremap <c-j> <c-w>j
