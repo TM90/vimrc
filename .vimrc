@@ -20,8 +20,10 @@ Plugin 'tpope/vim-vinegar'
 Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'majutsushi/tagbar'
 call vundle#end()
 
+noremap <F8> :TagbarToogle<CR>
 noremap <c-j> <c-w>j
 noremap <c-k> <c-w>k
 noremap <c-l> <c-w>l
