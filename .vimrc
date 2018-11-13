@@ -20,6 +20,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'majutsushi/tagbar'
+Plugin 'nvie/vim-flake8'
 call vundle#end()
 
 function! ToggleVExplorer()
