@@ -21,6 +21,8 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'nvie/vim-flake8'
+Plugin 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all' }
+Plugin 'junegunn/fzf.vim' 
 call vundle#end()
 
 function! ToggleVExplorer()
