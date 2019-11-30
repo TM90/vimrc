@@ -37,12 +37,34 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 
 ## insert mode:
 - tab -> auto completion
-- ctrl-n -> multiple selection
 
 ## visual mode:
 - > -> increase indent of selected block
 - < -> decrease indent of selected block
 - ,+s sort alphabetically
 
+# Plugins
 
+## vim-fugitive
 
+- :Gstatus
+- :Gcommit
+- :Gmerge
+- :Gread -> git checkout --filename
+- :Gblame
+
+## vim-multiple-cursors 
+
+- ctrl-n -> multiple selection
+
+## tagbar
+
+- "F8" -> tagbar toogle
+  
+## vim-flake8
+
+- "F7" -> run flake8
+  
+## fzf.vim
+
+https://github.com/junegunn/fzf.vim
