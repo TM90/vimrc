@@ -65,6 +65,6 @@ When spell checking is enabled(.md,.wiki,.txt and README files) on a incorrect w
 
 - "F7" -> run flake8
   
-## fzf.vim
+## fzf.vim ?
 
 https://github.com/junegunn/fzf.vim
